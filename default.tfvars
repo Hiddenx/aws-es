@@ -1,0 +1,9 @@
+region = "us-east-1"
+es_domain = "es.mydomain"
+es_subnets = ["subnet-xxxxxxxx"]
+vpc_id = "vpc-xxxxxxxx"
+vpc_cidr_block = "10.0.0.0/8"
+master_instance_type = "r5.xlarge.elasticsearch"
+instance_type = "r5.large.elasticsearch"
+instance_count = "3"
+es_version = "6.7"
